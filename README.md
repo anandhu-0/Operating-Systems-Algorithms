@@ -13,10 +13,10 @@ The project include OS CPU scheduling algorithms.The goal is to understand the l
 
 
 ## how to compile and run
-
+``` text
  gcc fcfs.c
  ./a.exe
-
+```
 
  ## sample output
 ``` text
