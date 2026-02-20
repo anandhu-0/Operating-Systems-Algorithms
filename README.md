@@ -27,6 +27,7 @@ enter arrival time burst time of process: 2 8
 enter arrival time burst time of process: 3 6
 
 ## sample output
+``` text
 
 FCFS SCHEDULING :
 
@@ -42,7 +43,7 @@ Average Waiting Time = 5.75
 Gantt Chart:
 | P1 | P2 | P3 | P4 |
 0    5    8    16   22
-
+```
 
 
 
