@@ -19,12 +19,13 @@ The project include OS CPU scheduling algorithms.The goal is to understand the l
 
 
  ## sample output
-
+``` text
  enter number of processes: 4
 enter arrival time burst time of process: 0 5
 enter arrival time burst time of process: 1 3
 enter arrival time burst time of process: 2 8
 enter arrival time burst time of process: 3 6
+```
 
 ## sample output
 ``` text
