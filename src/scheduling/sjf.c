@@ -9,7 +9,7 @@ struct sjf
     int tat;
     int wt;
     int iscompleted;
-}p[10],temp[10],q[10];
+}p[10],q[10];
 
 int main(){
     int completed = 0;
@@ -68,18 +68,7 @@ int main(){
     avgtat = totaltat/no_of_processes;
     avgwt = totalwt/no_of_processes;
 
-    for (int i = 0; i < no_of_processes; i++)
-    {
-        for (int j = 0; j < no_of_processes; j++)
-        {
-            if(p[i].wt < p[j].wt){
-                temp[i] = p[i];
-                p[i] = p[j];
-                p[j] = temp[i];
-            }
-        }
-        
-    }
+    
     
     printf("SJF scheduling : \n");
     printf("PID\t AT\t BT\t CT\t TAT\t WT\n");
@@ -94,12 +83,7 @@ int main(){
     printf("|");
     for (int i = 0; i < no_of_processes; i++)
     {
-        for (int k = 0; k < no_of_processes; k++)
-        {
-            if(q[i].PID == p[k].PID){
-                printf("P%d |",p[i].PID);
-            }
-        }
+        printf(" P%d |",q[i].PID);
         
     }
     printf("\n0");
@@ -108,7 +92,7 @@ int main(){
         for (int k = 0; k < no_of_processes; k++)
         {
             if(q[i].PID == p[k].PID){
-                printf("  %d",p[i].ct);
+                printf("%5d",p[k].ct);
             }
         }
         
