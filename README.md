@@ -10,6 +10,8 @@ The project include OS CPU scheduling algorithms.The goal is to understand the l
 
  1.first come first serve (fcfs)
  2.shortest job first (sjf)
+ 3.round robin(rr)
+ 4.shortest remaining time first(srtf)
 
 
 ## how to compile and run
@@ -47,4 +49,7 @@ Gantt Chart:
 ```
 
 
+```text
 
+in srtf if we want compressed gantt chart ,just uncomment the if condition and print.
+```
