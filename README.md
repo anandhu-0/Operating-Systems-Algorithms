@@ -12,6 +12,7 @@ The project include OS CPU scheduling algorithms.The goal is to understand the l
  2.shortest job first (sjf)
  3.round robin(rr)
  4.shortest remaining time first(srtf)
+ 5.priority
 
 
 ## how to compile and run
