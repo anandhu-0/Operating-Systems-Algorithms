@@ -1,6 +1,6 @@
 # OPERATING SYSTEM ALGORITHMS
 
-The project include OS CPU scheduling algorithms,process syncronization.The goal is to understand the logic behind cpu scheduling  algorithms and process allocation and implementation.
+The project include OS CPU scheduling algorithms,process syncronization , deaddlock detection and avoidance algorithm .The goal is to understand the logic behind cpu scheduling  algorithms and process allocation and implementation.
 
 
 ## The Algorithms  and syncronization Included 
@@ -18,6 +18,10 @@ The project include OS CPU scheduling algorithms,process syncronization.The goal
 
 ```text
 1. reader writer problem.
+```
+### deadlock
+```text
+2.deadlock avoidance[bankers algorithm]
 ```
 
 ## how to compile and run algorithms
