@@ -1,9 +1,9 @@
 # OPERATING SYSTEM ALGORITHMS
 
-The project include OS CPU scheduling algorithms.The goal is to understand the logic behind cpu scheduling  algorithms and process allocation and implementation.
+The project include OS CPU scheduling algorithms,process syncronization.The goal is to understand the logic behind cpu scheduling  algorithms and process allocation and implementation.
 
 
-## The Algorithms Included
+## The Algorithms  and syncronization Included 
 
 
 ### Scheduling
@@ -14,12 +14,24 @@ The project include OS CPU scheduling algorithms.The goal is to understand the l
  4.shortest remaining time first(srtf)
  5.priority
  ```
+### syncronization
 
+```text
+1. reader writer problem.
+```
 
-## how to compile and run
+## how to compile and run algorithms
+
 ``` text
  gcc fcfs.c
  ./a.exe
+```
+## how to compile and run syncronizatons
+
+```text
+
+gcc reader_writer.c -o rw -pthread
+./rw
 ```
 
  ## sample output
