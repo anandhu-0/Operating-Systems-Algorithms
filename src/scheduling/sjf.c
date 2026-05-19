@@ -36,6 +36,11 @@ int main(){
                     minBT = p[i].bt;
                     indx = i;
                 }
+                else if(p[i].bt == minBT){
+                    if(p[i].at < p[indx].at){
+                        indx = i;
+                    }
+                }
 
             }
         }
