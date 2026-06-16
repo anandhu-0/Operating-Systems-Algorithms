@@ -14,6 +14,7 @@ sem_t readtry;
 
 int readcount = 0;
 int writecount = 0;
+
 int shared_data = 0;
 
 void *writer(void *args){
